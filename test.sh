@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ -e index.html ]
 then
-    echo "ok"
+    exit 1
 else
-    echo "nok"
+    exit 0
 fi
