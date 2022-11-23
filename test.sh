@@ -1,6 +1,6 @@
 #!/bin/bash
-if [ -e index.html ]
-then
+ls
+if [ -f index.html ]; then
     echo "Pass"
     exit 0
 else
